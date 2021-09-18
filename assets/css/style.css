@@ -387,3 +387,13 @@ footer .right {
     width: 100%;
   }
 }
+
+@media only screen and (max-width : 450px){
+  footer .right{
+    display: block;
+    text-align: center;
+  }
+  .footer-list{
+    margin-top: 30px;
+  } 
+}
